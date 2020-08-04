@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/passbase_securely_data_transfer_title"
+            style="@style/ByPassbase"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+            android:id="@+id/passbase_securely_data_transfer_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/aic_round_circle"
+            android:backgroundTint="@color/passbase_lt_blue"
+            android:contentDescription="@string/description"
+            android:paddingStart="6dp"
+            android:paddingTop="7dp"
+            android:paddingEnd="9dp"
+            android:paddingBottom="7dp"
+            android:src="@drawable/aic_arrow_left"
+            android:tint="@color/passbase_header"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+            android:id="@+id/passbase_securely_data_transfer_text1"
+            style="@style/TextTitle"
+            android:layout_marginTop="160dp"
+            android:text="@string/we_securely_transfer_your_data_now"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+            android:id="@+id/passbase_securely_data_transfer_action"
+            style="@style/ActionButton"
+            android:background="@drawable/aic_round_rect_border_x2"
+            android:backgroundTint="@color/passbase_blue"
+            android:gravity="center"
+            android:text="@string/confirm"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    <ProgressBar
+            android:id="@+id/passbase_securely_data_transfer_progress"
+            style="@style/ProgressBar"
+            app:layout_constraintBottom_toBottomOf="@id/passbase_securely_data_transfer_action"
+            app:layout_constraintEnd_toStartOf="@id/passbase_securely_data_transfer_action"
+            app:layout_constraintStart_toStartOf="@id/passbase_securely_data_transfer_text1"
+            app:layout_constraintTop_toTopOf="@id/passbase_securely_data_transfer_action" />
+
+    <!--MAIN VIEWS-->
+
+    <TextView
+            android:id="@+id/passbase_securely_data_transfer_text2"
+            style="@style/TextSubTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Selfie Video"
+            app:layout_constraintStart_toStartOf="@id/passbase_securely_data_transfer_text1"
+            app:layout_constraintTop_toBottomOf="@id/passbase_securely_data_transfer_text1" />
+
+    <TextView
+            android:id="@+id/passbase_securely_data_transfer_text3"
+            style="@style/TextSubTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Driving License Document"
+            app:layout_constraintStart_toStartOf="@id/passbase_securely_data_transfer_text2"
+            app:layout_constraintTop_toBottomOf="@id/passbase_securely_data_transfer_text2" />
+
+    <TextView
+            android:id="@+id/passbase_securely_data_transfer_text4"
+            style="@style/TextSubTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Email address"
+            app:layout_constraintStart_toStartOf="@id/passbase_securely_data_transfer_text3"
+            app:layout_constraintTop_toBottomOf="@id/passbase_securely_data_transfer_text3" />
+
+    <TextView
+            android:id="@+id/passbase_securely_data_transfer_text5"
+            style="@style/TextSubTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Location"
+            app:layout_constraintStart_toStartOf="@id/passbase_securely_data_transfer_text4"
+            app:layout_constraintTop_toBottomOf="@id/passbase_securely_data_transfer_text4" />
+
+    <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/aic_round_circle"
+            android:backgroundTint="@color/passbase_lt_blue"
+            android:contentDescription="@string/description"
+            android:padding="2dp"
+            android:src="@drawable/aic_info"
+            android:tint="@color/passbase_header"
+            app:layout_constraintBottom_toBottomOf="@id/passbase_securely_data_transfer_text2"
+            app:layout_constraintEnd_toEndOf="@id/passbase_securely_data_transfer_text1"
+            app:layout_constraintTop_toTopOf="@id/passbase_securely_data_transfer_text2" />
+
+    <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/aic_round_circle"
+            android:backgroundTint="@color/passbase_lt_blue"
+            android:contentDescription="@string/description"
+            android:padding="2dp"
+            android:src="@drawable/aic_info"
+            android:tint="@color/passbase_header"
+            app:layout_constraintBottom_toBottomOf="@id/passbase_securely_data_transfer_text3"
+            app:layout_constraintEnd_toEndOf="@id/passbase_securely_data_transfer_text1"
+            app:layout_constraintTop_toTopOf="@id/passbase_securely_data_transfer_text3" />
+
+    <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/aic_round_circle"
+            android:backgroundTint="@color/passbase_lt_blue"
+            android:contentDescription="@string/description"
+            android:padding="2dp"
+            android:src="@drawable/aic_info"
+            android:tint="@color/passbase_header"
+            app:layout_constraintBottom_toBottomOf="@id/passbase_securely_data_transfer_text4"
+            app:layout_constraintEnd_toEndOf="@id/passbase_securely_data_transfer_text1"
+            app:layout_constraintTop_toTopOf="@id/passbase_securely_data_transfer_text4" />
+
+    <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/aic_round_circle"
+            android:backgroundTint="@color/passbase_lt_blue"
+            android:contentDescription="@string/description"
+            android:padding="2dp"
+            android:src="@drawable/aic_info"
+            android:tint="@color/passbase_header"
+            app:layout_constraintBottom_toBottomOf="@id/passbase_securely_data_transfer_text5"
+            app:layout_constraintEnd_toEndOf="@id/passbase_securely_data_transfer_text1"
+            app:layout_constraintTop_toTopOf="@id/passbase_securely_data_transfer_text5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

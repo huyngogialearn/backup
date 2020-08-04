@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/passbase_layoutStartVerification"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        tools:context=".StartVerification">
+
+    <ImageView
+            android:id="@+id/passbase_imageView4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/description"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/aic_passbaseicon" />
+
+    <ImageButton
+            android:id="@+id/passbase_exitButtonStartVerification"
+            android:layout_width="22dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@color/transparent"
+            android:contentDescription="@string/description"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/aic_cancelicon3x" />
+
+    <ProgressBar
+            android:id="@+id/passbase_progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="5dp"
+            android:max="100"
+            android:progress="20"
+            android:progressTint="#0056ff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:targetApi="O" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/passbase_startButton2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+                android:id="@+id/passbase_textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:gravity="center"
+                android:text="@string/start_to_verify_yourself_in_two_simple_steps"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:targetApi="o" />
+
+        <TextView
+                android:id="@+id/passbase_textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:lines="1"
+                android:text="@string/take_a_three_second_selfie"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/passbase_imageView7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/passbase_imageView7"
+                tools:targetApi="O" />
+
+        <ImageView
+                android:id="@+id/passbase_imageView7"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:contentDescription="@string/description"
+                app:layout_constraintEnd_toStartOf="@+id/passbase_textView6"
+                app:layout_constraintTop_toBottomOf="@+id/passbase_textView3"
+                app:srcCompat="@drawable/aic_one_icon" />
+
+        <ImageView
+                android:id="@+id/passbase_imageView8"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginTop="32dp"
+                android:contentDescription="@string/description"
+                app:layout_constraintStart_toStartOf="@+id/passbase_imageView7"
+                app:layout_constraintTop_toBottomOf="@+id/passbase_imageView7"
+                app:srcCompat="@drawable/aic_two_icon" />
+
+        <TextView
+                android:id="@+id/passbase_textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:lines="1"
+                android:text="@string/scan_your_id_or_passport"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/passbase_imageView8"
+                app:layout_constraintStart_toEndOf="@+id/passbase_imageView8"
+                app:layout_constraintTop_toTopOf="@+id/passbase_imageView8"
+                tools:targetApi="O" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <Button
+            android:id="@+id/passbase_startButton2"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:background="@color/passbase_blue"
+            android:text="@string/start"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:targetApi="O" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

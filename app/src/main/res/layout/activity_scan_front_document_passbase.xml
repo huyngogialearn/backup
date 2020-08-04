@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+>
+
+    <TextView
+            android:id="@+id/passbase_scan_front_document_title"
+            style="@style/ByPassbase"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+    />
+
+    <ImageView
+            android:id="@+id/passbase_scan_front_document_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/aic_arrow_left"
+            android:tint="@color/passbase_header"
+            android:background="@drawable/aic_round_circle"
+            android:backgroundTint="@color/passbase_lt_blue"
+            android:paddingTop="7dp"
+            android:paddingEnd="9dp"
+            android:paddingStart="6dp"
+            android:paddingBottom="7dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="16dp"
+            android:contentDescription="@string/description"
+    />
+
+    <ImageView
+            android:id="@+id/passbase_scan_front_document_animation"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:layout_constraintVertical_bias="0.2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="@string/description"
+    />
+
+    <TextView
+            android:id="@+id/passbase_scan_front_document_text1"
+            style="@style/TextTitle"
+            android:text="@string/scan_the_front_side_of_your"
+            app:layout_constraintTop_toBottomOf="@id/passbase_scan_front_document_animation"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="60dp"
+    />
+
+    <TextView
+            android:id="@+id/passbase_scan_front_document_text2"
+            style="@style/TextSubTitle"
+            android:text="@string/prepare_your_document_are_ready_for_the_next_step"
+            app:layout_constraintTop_toBottomOf="@id/passbase_scan_front_document_text1"
+            app:layout_constraintStart_toStartOf="@id/passbase_scan_front_document_text1"
+            app:layout_constraintEnd_toEndOf="@id/passbase_scan_front_document_text1"
+    />
+
+    <com.passbase.passbase_sdk.new_design.ActionButton
+            android:id="@+id/passbase_scan_front_document_action"
+            style="@style/ActionButton"
+            android:text="@string/start"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+    />
+
+    <ProgressBar
+            android:id="@+id/passbase_scan_front_document_progress"
+            style="@style/ProgressBar"
+            android:progress="10"
+            app:layout_constraintStart_toStartOf="@id/passbase_scan_front_document_text1"
+            app:layout_constraintEnd_toStartOf="@id/passbase_scan_front_document_action"
+            app:layout_constraintTop_toTopOf="@id/passbase_scan_front_document_action"
+            app:layout_constraintBottom_toBottomOf="@id/passbase_scan_front_document_action"
+    />
+
+    <LinearLayout
+            android:id="@+id/passbase_scan_front_document_upload_animation"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:background="#fff"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="56dp"
+            android:visibility="gone"
+    >
+
+        <com.passbase.passbase_sdk.new_design.ActionButton
+                android:id="@+id/passbase_scan_front_document_upload_progress"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                app:loading="true"
+                android:scaleY="0.6"
+                android:scaleX="0.6"
+        />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/uploading"
+                style="@style/TextSubTitle"
+                android:textSize="16sp"
+        />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

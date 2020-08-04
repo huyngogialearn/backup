@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.myapplication">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.passbase.passbase_sdk.new_design.StartScreenActivity"/>
+        <activity android:name="com.passbase.passbase_sdk.new_design.ChooseCountryActivity"/>
+        <activity android:name="com.passbase.passbase_sdk.new_design.SomethingWrongActivity"/>
+        <activity android:name="com.passbase.passbase_sdk.new_design.EnterEmailActivity"/>
+        <activity android:name="com.passbase.passbase_sdk.new_design.CongratsDoneActivity"/>
+        <activity android:name="com.passbase.passbase_sdk.new_design.NFCDetectActivity"/>
+        <activity android:name="com.passbase.passbase_sdk.new_design.ScanBackDocumentActivity"/>
+        <activity android:name="com.passbase.passbase_sdk.new_design.ScanFrontDocumentActivity"/>
+        <activity android:name="com.passbase.passbase_sdk.new_design.TakeSelfieVideoActivity"/>
+        <activity android:name="com.passbase.passbase_sdk.new_design.SelectDocumentActivity"/>
+        <activity android:name="com.passbase.passbase_sdk.new_design.SecurelyDataTransferActivity"/>
+    </application>
+
+</manifest>

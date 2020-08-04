@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Demo App</string>
+    <string name="approve_your_email_to_get_started">Bitte bestätige deine Email um zu starten.</string>
+    <string name="by_passbase">by passbase</string>
+    <string name="choose_a_country_from_the_drop_down_menu_that_issued_your_identity_document">Wähle das Land aus,
+        welches dein Ausweisdokument ausgestellt hat.
+    </string>
+    <string name="choose_a_document_type_to_scan">Wähle einen Dokument zum scannen aus</string>
+    <string name="choose_your_country_of_residency">Was für eine Staatsbürgerschaft hast du?</string>
+    <string name="confirm">Bestätigen</string>
+    <string name="congrats_you_are_done">Glückwunsch. Du bist fertig!</string>
+    <string name="continue_s">Weiter</string>
+    <string name="corners_recognized">%1$d/4 Ecken erkannt.</string>
+    <string name="country_links">256-bit Verschlüsseling ist aktiviert. Durch das klicken auf “Start” stimmst du unseren <a href="https://passbase.com/verification-terms/">Nutzungsbedingungen</a>Nutzungsbedingungen und <a href="https://passbase.com/privacy/">Privatsphärebestimmungen
+    </a> zu.
+    </string>
+    <string name="document">Dokument</string>
+    <string name="enter_your_email_to_start">Gebe deine Email ein, um zu starten</string>
+    <string name="error">Fehler</string>
+    <string name="error_message">Etwas ist schief gelaufen.</string>
+    <string name="everything_readable">• Alles lesbar?</string>
+    <string name="finish">Fertig</string>
+    <string name="great_id_detected">Super, ID erkannt.</string>
+    <string name="help_to_process_faster">Beschleunige die Verabeitung.</string>
+    <string name="hold_stay_for">Halte still für %1$dsec.</string>
+    <string name="id_not_blurred">• Foto scharf?</string>
+    <string name="if_you_already_got_verified_via_passbase_you_ll_receive_a_magic_link_or_push_in_your_passbase_app">
+        Falls du bereits bei Passbase angemeldet bist, erhältst du einen Magic Link zur Bestätigung.
+    </string>
+    <string name="if_you_already_have_done_a_verification_with_passbase_in_the_past_it_s_even_quicker">Es geht noch
+        schneller, falls du bereits eine Verifizierung mit Passbase gemacht hast.
+    </string>
+    <string name="move_your_head_in_two_circles">Schau gerade in die Kamera und folge den Anweisungen auf dem
+        Bildschirm.
+    </string>
+    <string name="next">Nächster Schritt</string>
+    <string name="no_connection">"Keine Verbindung zu unseren Servern. "</string>
+    <string name="nothing_cut_off_in_the_picture">• Dokument komplett im Bild?</string>
+    <string name="prepare_your_document_are_ready_for_the_next_step">Bereite jetzt dein Dokument für den nächsten
+        Schritt vor.
+    </string>
+    <string name="prepare_your_document_now_so_that_you_are_ready_for_the_next_step">Bereite jetzt dein Dokument für den
+        nächsten Schritt vor.
+    </string>
+    <string name="prepare_your_id_now">Bereite jetzt dein Dokument vor</string>
+    <string name="processing_document">Verbeitung läuft.</string>
+    <string name="proof_that_you_are_a_real_person_by_simply_following_the_instructions_in_the_next_step">Beweise, dass
+        du ein echter Mensch bist und folge den Anweisungen.
+    </string>
+    <string name="put_the_backside_into_the_white_frame">Erfasse die Rückseite deines Ausweisdokuments innerhalb des
+        weißen Rahmens
+    </string>
+    <string name="put_your_id_inside_the_white_frame">Positioniere dein Dokument innerhalb des weißen Rahmens</string>
+    <string name="record_a_selfie_video_and_scan_your_identity_document">Nehme einfach ein Selfie Video auf und scanne
+        dein Ausweisdokument.
+    </string>
+    <string name="redo">Nochmal</string>
+    <string name="retake">Noch einmal</string>
+    <string name="scan_back_side">Scanne die Rückseite.</string>
+    <string name="scan_front_side">Scanne die Vorderseite.</string>
+    <string name="scan_the_back_side_of_your">Scanne die Rückseite von deinem</string>
+    <string name="scan_the_backside">Scanne die Rückseite.</string>
+    <string name="scan_the_front_side_of_your">Scanne die Vorderseite von deinem</string>
+    <string name="scan_your_document">Scanne dein Dokument.</string>
+    <string name="scan_your_id_or_passport">Scannen Sie Ihren Personalausweis oder Reisepass</string>
+    <string name="select_your_identity_document">Wähle dein Ausweisdokument aus</string>
+    <string name="something_went_wrong">Something went wrong.</string>
+    <string name="start">Start</string>
+    <string name="start_notice">Durch Klicken auf \"Start\" stimmst du unseren <a href="https://passbase.com/verification-terms/">Nutzungsbedingungen
+    </a> &amp; <a href="https://passbase.com/privacy/">Privatsphärebestimmungen</a> zu.
+    </string>
+    <string name="start_recording">Aufnahme starten</string>
+    <string name="start_to_verify_yourself_in_two_simple_steps">Beginnen Sie, sich in zwei einfachen Schritten zu
+        verifizieren
+    </string>
+    <string name="take_a_short_selfie_video">Nimm ein kurzes Selfie Video auf</string>
+    <string name="take_a_three_second_selfie">Nimm ein kurzes Selfie Video auf</string>
+    <string name="take_it_manually">Bild manuell aufnehmen</string>
+    <string name="take_photo">Bild aufnehmen</string>
+    <string name="take_photo_manually">Normal aufnehmen</string>
+    <string name="try_again">Try again</string>
+    <string name="type_your_country">Wähle ein Land</string>
+    <string name="uploading">Lädt hoch</string>
+    <string name="verify_me">Verifizieren</string>
+    <string name="verify_your_identity_now">Verifiziere jetzt deine Identität</string>
+    <string name="we_securely_transfer_your_data_now">Deine Daten werden nun sicher übertragen</string>
+    <string name="where_was_your_identity_document_issued">Woher stammt dein Ausweisdokument?</string>
+    <string name="your_verification_is_being_processed">Deine Verifizierung wird aktuell bearbeitet.</string>
+</resources>

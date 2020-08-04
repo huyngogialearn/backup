@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+>
+
+    <TextView
+            android:id="@+id/passbase_choose_country_title"
+            style="@style/ByPassbase"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+    />
+
+    <ImageView
+            android:id="@+id/passbase_choose_country_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/aic_arrow_left"
+            android:tint="@color/passbase_header"
+            android:background="@drawable/aic_round_circle"
+            android:backgroundTint="@color/passbase_lt_blue"
+            android:paddingTop="7dp"
+            android:paddingEnd="9dp"
+            android:paddingStart="6dp"
+            android:paddingBottom="7dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="16dp"
+            android:contentDescription="@string/description"
+    />
+
+    <TextView
+            android:id="@+id/passbase_choose_country_text1"
+            style="@style/TextTitle"
+            android:text="@string/where_was_your_identity_document_issued"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+    />
+
+    <TextView
+            android:id="@+id/passbase_choose_country_text2"
+            style="@style/TextSubTitle"
+            android:text="@string/choose_a_country_from_the_drop_down_menu_that_issued_your_identity_document"
+            app:layout_constraintStart_toStartOf="@id/passbase_choose_country_text1"
+            app:layout_constraintEnd_toEndOf="@id/passbase_choose_country_text1"
+            app:layout_constraintTop_toBottomOf="@id/passbase_choose_country_text1"
+    />
+
+    <com.passbase.passbase_sdk.new_design.ActionButton
+            android:id="@+id/passbase_choose_country_action"
+            style="@style/ActionButton"
+            android:layout_width="120dp"
+            android:layout_height="56dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+    />
+
+    <ProgressBar
+            android:id="@+id/passbase_choose_country_progress"
+            style="@style/ProgressBar"
+            app:layout_constraintTop_toTopOf="@id/passbase_choose_country_action"
+            app:layout_constraintBottom_toBottomOf="@id/passbase_choose_country_action"
+            app:layout_constraintEnd_toStartOf="@id/passbase_choose_country_action"
+            app:layout_constraintStart_toStartOf="@id/passbase_choose_country_text1"
+    />
+
+    <!--MAIN VIEWS-->
+
+    <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/aic_round_rect_border_x2"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="@id/passbase_choose_country_text1"
+            app:layout_constraintEnd_toEndOf="@id/passbase_choose_country_text1"
+            app:layout_constraintTop_toBottomOf="@+id/passbase_choose_country_text2"
+            android:layout_marginTop="24dp"
+    >
+
+        <LinearLayout
+                android:id="@+id/passbase_choose_country_selector_parent"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal"
+                android:background="@android:color/transparent"
+        >
+
+            <ImageView
+                    android:id="@+id/passbase_select_document_icon"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    android:src="@null"
+                    android:layout_gravity="center_vertical"
+                    android:padding="8dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:contentDescription="@string/description"
+            />
+
+            <TextView
+                    android:id="@+id/passbase_select_document_txt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:targetApi="O"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="@string/type_your_country"/>
+
+            <ImageView
+                    android:id="@+id/passbase_select_document_open_arrow"
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/aic_arrow_down"
+                    android:tint="@color/passbase_header"
+                    android:scaleType="centerInside"
+                    android:padding="19dp"
+                    android:contentDescription="@string/description"/>
+
+        </LinearLayout>
+
+        <ScrollView
+                android:id="@+id/passbase_choose_country_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@android:color/transparent"
+                android:paddingBottom="1dp"
+        >
+
+            <LinearLayout
+                    android:id="@+id/passbase_choose_country_parent_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@android:color/transparent"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
+            />
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

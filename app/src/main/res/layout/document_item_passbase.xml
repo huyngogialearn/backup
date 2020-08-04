@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/passbase_parent_layout">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+    >
+
+        <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:layout_centerVertical="true"
+                android:id="@+id/passbase_adapter_doc_image"
+                tools:src="@drawable/aic_passport"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:contentDescription="@string/description"/>
+
+        <TextView
+                android:id="@+id/passbase_adapter_doc_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Document"
+                android:textSize="18sp"
+                tools:targetApi="o"
+                android:layout_toRightOf="@+id/passbase_adapter_doc_image"
+                android:layout_toEndOf="@+id/passbase_adapter_doc_image"
+                android:layout_centerVertical="true"
+                android:gravity="start"
+                android:layout_marginTop="0dp"
+                android:textColor="#000"
+                android:layout_marginBottom="5dp"/>
+
+        <!--<ImageView
+                android:id="@+id/adapter_doc_border"
+                android:scaleType="centerInside"
+                android:src="@drawable/aic_selected_document_new"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/description"/>-->
+
+        <ImageView
+                android:id="@+id/passbase_adapter_doc_border"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/aic_tick_icon"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+        />
+
+    </RelativeLayout>
+
+</RelativeLayout>

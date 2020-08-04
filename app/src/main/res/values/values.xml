@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="passbase_blue">#0045FF</color>
+    <color name="passbase_blue_disable">#bcd7ff</color>
+    <color name="passbase_header">#142c4f</color>
+    <color name="passbase_lt_blue">#E6EEFE</color>
+    <color name="passbase_lt_gray">#CECECE</color>
+    <color name="passbase_sub_header">#8494a8</color>
+    <color name="passbase_title">#cdd2d7</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <string name="app_name">Android Demo App</string>
+    <string name="approve_your_email_to_get_started">Approve your email to get started.</string>
+    <string name="by_passbase">by <b>passbase</b></string>
+    <string name="choose_a_country_from_the_drop_down_menu_that_issued_your_identity_document">Choose a country from the
+        drop down menu that issued your identity document.
+    </string>
+    <string name="choose_a_document_type_to_scan">Choose a document type to scan</string>
+    <string name="choose_your_country_of_residency">What is your citizenship?</string>
+    <string name="confirm">Confirm</string>
+    <string name="congrats_you_are_done">Congrats. You are done!</string>
+    <string name="continue_s">Continue</string>
+    <string name="corners_recognized">%1$d/4 corners recognized.</string>
+    <string name="country_links">256-bit encryption is enabled. By clicking the Next button you agree to our <a href="https://passbase.com/verification-terms/">Consumer Terms &amp; Conditions
+    </a> and
+        <a href="https://passbase.com/privacy/">Privacy Policy</a>
+    </string>
+    <string name="default_web_client_id" translatable="false">730496329957-3i1cmap8pl894no0j54chvn9hep1fb39.apps.googleusercontent.com</string>
+    <string name="description" translatable="false">description</string>
+    <string name="document">Document</string>
+    <string name="enter_your_email_to_start">Enter your email to start</string>
+    <string name="error">Error</string>
+    <string name="error_message">Something went wrong.</string>
+    <string name="everything_readable">• Everything readable?</string>
+    <string name="finish">Finish</string>
+    <string name="firebase_database_url" translatable="false">https://passbase-5c502.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">730496329957</string>
+    <string name="google_api_key" translatable="false">AIzaSyCCpE-YBT9wR4gaTxyHwuBamxlnDzTE6lY</string>
+    <string name="google_app_id" translatable="false">1:730496329957:android:f8f95aefb338d2f32acc0c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCCpE-YBT9wR4gaTxyHwuBamxlnDzTE6lY</string>
+    <string name="google_storage_bucket" translatable="false">passbase-5c502.appspot.com</string>
+    <string name="great_id_detected">Great. ID detected.</string>
+    <string name="help_to_process_faster">Help to process faster.</string>
+    <string name="hold_stay_for">Hold stay for %1$ds.</string>
+    <string name="id_not_blurred">• ID not blurred?</string>
+    <string name="if_you_already_got_verified_via_passbase_you_ll_receive_a_magic_link_or_push_in_your_passbase_app">If
+        you already got verified via Passbase, you\'ll receive a magic link or push in your passbase app.
+    </string>
+    <string name="if_you_already_have_done_a_verification_with_passbase_in_the_past_it_s_even_quicker">If you already
+        have done a verification with Passbase in the past, it\'s even quicker.
+    </string>
+    <string name="move_your_head_in_two_circles">Move your head in two circles</string>
+    <string name="name_example_com" translatable="false">your@email.com</string>
+    <string name="next">Next</string>
+    <string name="no_connection">No connection to our servers.</string>
+    <string name="nothing_cut_off_in_the_picture">• Nothing cut off in the picture?</string>
+    <string name="prepare_your_document_are_ready_for_the_next_step">Prepare your document are ready for the next
+        step.
+    </string>
+    <string name="prepare_your_document_now_so_that_you_are_ready_for_the_next_step">Prepare your document now, so that
+        you are ready for the next step.
+    </string>
+    <string name="prepare_your_id_now">Prepare your ID now</string>
+    <string name="processing_document">Processing document.</string>
+    <string name="project_id" translatable="false">passbase-5c502</string>
+    <string name="proof_that_you_are_a_real_person_by_simply_following_the_instructions_in_the_next_step">Proof that you
+        are a real person by simply following the instructions in the next step.
+    </string>
+    <string name="put_the_backside_into_the_white_frame">Put the backside into the white frame</string>
+    <string name="put_your_id_inside_the_white_frame">Put your ID inside the white frame</string>
+    <string name="record_a_selfie_video_and_scan_your_identity_document">Record a selfie video and scan your identity
+        document.
+    </string>
+    <string name="redo">Redo</string>
+    <string name="retake">Retake</string>
+    <string name="scan_back_side">Scan back side.</string>
+    <string name="scan_front_side">Scan front side.</string>
+    <string name="scan_the_back_side_of_your">Scan the back side of your</string>
+    <string name="scan_the_backside">Scan the backside</string>
+    <string name="scan_the_front_side_of_your">Scan the front side of your</string>
+    <string name="scan_your_document">Scan your document.</string>
+    <string name="scan_your_id_or_passport">Scan your ID or passport</string>
+    <string name="select_your_identity_document">Select your identity document</string>
+    <string name="something_went_wrong">Something went wrong.</string>
+    <string name="start">Start</string>
+    <string name="start_notice">By clicking \"Start\" you agree to our <a href="https://passbase.com/verification-terms/">Terms &amp; Conditions
+    </a> and
+        <a href="https://passbase.com/privacy/">Privacy Notice</a>
+    </string>
+    <string name="start_recording">Start Recording</string>
+    <string name="start_to_verify_yourself_in_two_simple_steps">Start to verify yourself in two simple steps</string>
+    <string name="take_a_short_selfie_video">Take a short selfie video</string>
+    <string name="take_a_three_second_selfie">Take a three second selfie</string>
+    <string name="take_it_manually">Take it manually.</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="take_photo_manually">Take photo manually</string>
+    <string name="try_again">Try again</string>
+    <string name="type_your_country">Type your country</string>
+    <string name="uploading">Uploading</string>
+    <string name="verify_me">Verify me</string>
+    <string name="verify_your_identity_now">Verify your identity now</string>
+    <string name="we_securely_transfer_your_data_now">We securely transfer your data now</string>
+    <string name="where_was_your_identity_document_issued">Where was your identity document issued?</string>
+    <string name="your_verification_is_being_processed">Your verification is being processed.</string>
+    <string name="zero" translatable="false">00:00</string>
+    <string name="zero_add" translatable="false">00:0</string>
+    <style name="ActionButton">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+        <item name="android:layout_marginBottom">40dp</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ByPassbase" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/passbase_title</item>
+        <item name="android:text">@string/by_passbase</item>
+        <item name="android:layout_marginTop">18dp</item>
+    </style>
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+    <style name="ProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/aic_progress_bar</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">6dp</item>
+        <item name="android:layout_marginEnd">50dp</item>
+    </style>
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#aaaaaa</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="TextSubTitle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/passbase_sub_header</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+    <style name="TextTitle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/passbase_header</item>
+        <item name="android:layout_marginStart">50dp</item>
+        <item name="android:layout_marginEnd">50dp</item>
+        <item name="android:layout_marginTop">140dp</item>
+    </style>
+    <declare-styleable name="ActionButton">
+        <attr format="boolean" name="loading"/>
+    </declare-styleable>
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr format="reference" name="metaButtonBarStyle"/>
+        <attr format="reference" name="metaButtonBarButtonStyle"/>
+    </declare-styleable>
+    <declare-styleable name="PassbaseButton">
+        <attr format="color" name="backgroundColor"/>
+        <attr format="color" name="textColor"/>
+    </declare-styleable>
+</resources>

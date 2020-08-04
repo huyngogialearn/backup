@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Demo App</string>
+    <string name="approve_your_email_to_get_started">Validez votre e-mail afin de commencer.</string>
+    <string name="by_passbase">by passbase</string>
+    <string name="choose_a_country_from_the_drop_down_menu_that_issued_your_identity_document">Choisissez le pays de provenance de votre document d\'identité depuis le menu déroulant.</string>
+    <string name="choose_a_document_type_to_scan">Choisissez le document à scanner</string>
+    <string name="choose_your_country_of_residency">De quelle nationalité êtes-vous ?</string>
+    <string name="confirm">Confirmer</string>
+    <string name="congrats_you_are_done">Bravo. Vous avez fini!</string>
+    <string name="continue_s">Continuez</string>
+    <string name="corners_recognized">%1$d/4 dimensions reconnues</string>
+    <string name="country_links">L’encryption 256-bit est activée. En cliquant sur “Démarrer” vous acceptez les <a href="https://passbase.com/verification-terms/">Termes &amp; Conditions
+    </a> ainsi que l’accord de
+        <a href="https://passbase.com/privacy/">Politique de confidentialité</a>
+    </string>
+    <string name="document">Document</string>
+    <string name="enter_your_email_to_start">Entrez votre email pour commencer</string>
+    <string name="error">Erreur</string>
+    <string name="error_message">Quelque chose s\'est mal passé.</string>
+    <string name="everything_readable">• Le texte est-il lisible ?</string>
+    <string name="finish">Finir</string>
+    <string name="great_id_detected">Document détecté</string>
+    <string name="help_to_process_faster">Aidez-nous à vérifier rapidement.</string>
+    <string name="hold_stay_for">Stablilisez pour %1$dis.</string>
+    <string name="id_not_blurred">• Le document est-il clair ?</string>
+    <string name="if_you_already_got_verified_via_passbase_you_ll_receive_a_magic_link_or_push_in_your_passbase_app">Si
+        vous vous êtes déjà identifié grâce à Passbase, vous recevrez un lien direct ou bien une notification sur notre
+        application Passbase.
+    </string>
+    <string name="if_you_already_have_done_a_verification_with_passbase_in_the_past_it_s_even_quicker">Si vous avez déjà effectué une vérification avec Passbase auparavant, c\'est encore plus rapide</string>
+    <string name="move_your_head_in_two_circles">Positionnez-vous face à l’objectif en angle droit et suivez les
+        instructions.
+    </string>
+    <string name="next">Prochaine étape</string>
+    <string name="no_connection">Pas de connexion à nos serveurs.</string>
+    <string name="nothing_cut_off_in_the_picture">• L\'image n\'est pas coupée ?</string>
+    <string name="prepare_your_document_are_ready_for_the_next_step">Préparez votre document maintenant, pour que vous soyez prêt pour la prochaine étape.</string>
+    <string name="prepare_your_document_now_so_that_you_are_ready_for_the_next_step">Préparez votre document maintenant, pour que vous soyez prêt pour la prochaine étape.</string>
+    <string name="prepare_your_id_now">Préparez votre document maintenant</string>
+    <string name="processing_document">Validation du document</string>
+    <string name="proof_that_you_are_a_real_person_by_simply_following_the_instructions_in_the_next_step">Prouvez que vous êtes une réelle personne en suivant simplement les instructions à l\'étape suivante.</string>
+    <string name="put_the_backside_into_the_white_frame">Positionnez la face arrière votre document à l’intérieur du
+        cadre
+    </string>
+    <string name="put_your_id_inside_the_white_frame">Positionnez votre face avant du document à l’intérieur du cadre
+    </string>
+    <string name="record_a_selfie_video_and_scan_your_identity_document">Enregistrez une vidéo selfie et scannez votre
+        document d\'identité
+    </string>
+    <string name="redo">Refaire</string>
+    <string name="retake">Refaites une prise</string>
+    <string name="scan_back_side">Scannez l\'arrière</string>
+    <string name="scan_front_side">Scannez l\'avant.</string>
+    <string name="scan_the_back_side_of_your">Scannez la face arrière de votre</string>
+    <string name="scan_the_backside">Scannez l\'arrière</string>
+    <string name="scan_the_front_side_of_your">Scannez la face avant de votre</string>
+    <string name="scan_your_document">Scannez le document</string>
+    <string name="scan_your_id_or_passport">Scannez votre identité ou votre passeport</string>
+    <string name="select_your_identity_document">Selectionnez votre document d\'identité</string>
+    <string name="something_went_wrong">Something went wrong.</string>
+    <string name="start">Démarrer</string>
+    <string name="start_notice">En cliquant sur \"Démarrer\" vous acceptez les <a href="https://passbase.com/verification-terms/">Termes &amp; Conditions
+    </a> ainsi que
+        <a href="https://passbase.com/privacy/">l’accord de protection de vie privée</a>
+    </string>
+    <string name="start_recording">Enregistrer</string>
+    <string name="start_to_verify_yourself_in_two_simple_steps">Commencez à vous vérifier en deux étapes simples
+    </string>
+    <string name="take_a_short_selfie_video">Enregistrez une courte vidéo de vous</string>
+    <string name="take_a_three_second_selfie">Enregistrez une courte vidéo de vous</string>
+    <string name="take_it_manually">Faites-le vous même</string>
+    <string name="take_photo">Prendre photo</string>
+    <string name="take_photo_manually">Photographier manuellement</string>
+    <string name="try_again">Try again</string>
+    <string name="type_your_country">Entrez votre pays</string>
+    <string name="uploading">En train d\'envoyer</string>
+    <string name="verify_me">Vérifie moi</string>
+    <string name="verify_your_identity_now">Vérifiez votre identité maintenant</string>
+    <string name="we_securely_transfer_your_data_now">On vérifie de façon sécurisée vos données maintenant</string>
+    <string name="where_was_your_identity_document_issued">Où avez-vous obtenu votre document d\'identité?</string>
+    <string name="your_verification_is_being_processed">Votre identification est en cours</string>
+</resources>

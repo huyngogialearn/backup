@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+>
+
+    <TextView
+            android:id="@+id/passbase_start_screen_title"
+            style="@style/ByPassbase"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+    />
+
+    <ImageView
+            android:id="@+id/passbase_start_screen_finish"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/aic_cancel"
+            android:tint="@color/passbase_header"
+            android:padding="10dp"
+            android:background="@drawable/aic_round_circle"
+            android:backgroundTint="@color/passbase_lt_blue"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_margin="16dp"
+            android:contentDescription="@string/description"
+    />
+
+    <ImageView
+            android:id="@+id/passbase_start_screen_preview_animation"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="@string/description"
+    />
+
+    <ImageView
+            android:id="@+id/passbase_start_screen_animation"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            app:layout_constraintVertical_bias="0.2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="@string/description"
+    />
+
+    <TextView
+            style="@style/TextTitle"
+            android:id="@+id/passbase_start_screen_text1"
+            android:text="@string/verify_your_identity_now"
+            app:layout_constraintTop_toBottomOf="@id/passbase_start_screen_animation"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="70dp"
+    />
+
+    <TextView
+            android:id="@+id/passbase_start_screen_text2"
+            style="@style/TextSubTitle"
+            android:text="@string/record_a_selfie_video_and_scan_your_identity_document"
+            app:layout_constraintTop_toBottomOf="@id/passbase_start_screen_text1"
+            app:layout_constraintStart_toStartOf="@id/passbase_start_screen_text1"
+            app:layout_constraintEnd_toEndOf="@id/passbase_start_screen_text1"
+    />
+
+    <Button
+            android:id="@+id/passbase_start_screen_action"
+            style="@style/ActionButton"
+            android:background="@drawable/aic_round_rect_border_x2"
+            android:backgroundTint="@color/passbase_blue"
+            android:text="@string/start"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+    />
+
+
+
+    <ProgressBar
+            android:id="@+id/passbase_start_screen_progress"
+            style="@style/ProgressBar"
+            android:progress="10"
+            app:layout_constraintStart_toStartOf="@id/passbase_start_screen_text1"
+            app:layout_constraintEnd_toStartOf="@id/passbase_start_screen_action"
+            app:layout_constraintTop_toTopOf="@id/passbase_start_screen_action"
+            app:layout_constraintBottom_toBottomOf="@id/passbase_start_screen_action"
+    />
+
+
+    <TextView
+            android:id="@+id/passbase_start_screen_text3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/start_notice"
+            android:gravity="center"
+            android:textSize="8sp"
+            android:textColor="#CECEDB"
+            android:linksClickable="true"
+            android:textColorLink="#888888"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="12dp"
+    />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
